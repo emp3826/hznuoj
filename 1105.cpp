@@ -1,0 +1,47 @@
+#include <iostream>
+int main() {
+	std::cout << 19880101 << std::endl;
+	std::cout << 19880111 << std::endl;
+	std::cout << 19880117 << std::endl;
+	std::cout << 19880129 << std::endl;
+	std::cout << 19880221 << std::endl;
+	std::cout << 19880317 << std::endl;
+	std::cout << 19880321 << std::endl;
+	std::cout << 19880323 << std::endl;
+	std::cout << 19880417 << std::endl;
+	std::cout << 19880501 << std::endl;
+	std::cout << 19880519 << std::endl;
+	std::cout << 19880521 << std::endl;
+	std::cout << 19880603 << std::endl;
+	std::cout << 19880629 << std::endl;
+	std::cout << 19880711 << std::endl;
+	std::cout << 19880719 << std::endl;
+	std::cout << 19880723 << std::endl;
+	std::cout << 19880807 << std::endl;
+	std::cout << 19880911 << std::endl;
+	std::cout << 19881019 << std::endl;
+	std::cout << 19881101 << std::endl;
+	std::cout << 19881227 << std::endl;
+	std::cout << 19881229 << std::endl;
+	std::cout << 19890103 << std::endl;
+	std::cout << 19890107 << std::endl;
+	std::cout << 19890307 << std::endl;
+	std::cout << 19890413 << std::endl;
+	std::cout << 19890503 << std::endl;
+	std::cout << 19890509 << std::endl;
+	std::cout << 19890517 << std::endl;
+	std::cout << 19890523 << std::endl;
+	std::cout << 19890707 << std::endl;
+	std::cout << 19890713 << std::endl;
+	std::cout << 19890817 << std::endl;
+	std::cout << 19890911 << std::endl;
+	std::cout << 19890919 << std::endl;
+	std::cout << 19891007 << std::endl;
+	std::cout << 19891019 << std::endl;
+	std::cout << 19891031 << std::endl;
+	std::cout << 19891103 << std::endl;
+	std::cout << 19891117 << std::endl;
+	std::cout << 19891127 << std::endl;
+	std::cout << 19891213 << std::endl;
+	std::cout << 19891229 << std::endl;
+}
