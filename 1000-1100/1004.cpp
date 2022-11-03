@@ -1,16 +1,14 @@
-#include<iostream>
-#include<string>
-#include<algorithm>
-using namespace std;
+#include <algorithm>
+#include <iostream>
+#include <string>
 int main() {
-	string str;
+	std::string str;
 	int n;
-	cin >> n;
+	std::cin >> n;
 	getchar();
-	for (int i = 0; i < n; ++i) {
-		getline(cin, str);
-		reverse(str.begin(), str.end());
-		cout << str << endl << endl;
+	while (n--) {
+		std::getline(std::cin, str);
+		std::reverse(str.begin(), str.end());
+		std::cout << str << std::endl << std::endl;
 	}
-	return 0;
 }
