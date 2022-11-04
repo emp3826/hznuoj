@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
 	int n, m;
 	while (scanf("%d", &n) != EOF) {
 		printf("%d", n);
