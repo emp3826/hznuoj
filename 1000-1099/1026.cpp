@@ -1,7 +1,6 @@
 #include <iostream>
 #include <map>
-int main()
-{
+int main() {
     std::map<std::string, int> stu;
     std::string name;
     int score, t;
@@ -26,6 +25,5 @@ int main()
                 std::cout << "error" << std::endl;
         }
     }
-    return 0;
 }
 
