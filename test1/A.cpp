@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <iostream>
 int main() {
-    printf("Hello excellent athletes!\n");
-    printf("Hello excellent acmers!\n");
-    printf("Welcome to HZNU!\n");
+    std::cout << "Hello excellent athletes!" << std::endl;
+    std::cout << "Hello excellent acmers!" << std::endl;
+    std::cout << "Welcome to HZNU!" << std::endl;
 }

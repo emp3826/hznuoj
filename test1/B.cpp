@@ -1,5 +1,5 @@
-#include <iostream>
 #include <algorithm>
+#include <iostream>
 int main() {
     int x1, x2;
     int y1, y2;
