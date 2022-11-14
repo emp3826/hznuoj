@@ -1,47 +1,24 @@
 #include <iostream>
+bool isprime(int x) {
+	int i, j;
+	for (j = 2; j * j <= x; j++) {
+		if (x % j == 0)
+			return false;
+	}
+	return true;
+}
 int main() {
-	std::cout << 19880101 << std::endl;
-	std::cout << 19880111 << std::endl;
-	std::cout << 19880117 << std::endl;
-	std::cout << 19880129 << std::endl;
-	std::cout << 19880221 << std::endl;
-	std::cout << 19880317 << std::endl;
-	std::cout << 19880321 << std::endl;
-	std::cout << 19880323 << std::endl;
-	std::cout << 19880417 << std::endl;
-	std::cout << 19880501 << std::endl;
-	std::cout << 19880519 << std::endl;
-	std::cout << 19880521 << std::endl;
-	std::cout << 19880603 << std::endl;
-	std::cout << 19880629 << std::endl;
-	std::cout << 19880711 << std::endl;
-	std::cout << 19880719 << std::endl;
-	std::cout << 19880723 << std::endl;
-	std::cout << 19880807 << std::endl;
-	std::cout << 19880911 << std::endl;
-	std::cout << 19881019 << std::endl;
-	std::cout << 19881101 << std::endl;
-	std::cout << 19881227 << std::endl;
-	std::cout << 19881229 << std::endl;
-	std::cout << 19890103 << std::endl;
-	std::cout << 19890107 << std::endl;
-	std::cout << 19890307 << std::endl;
-	std::cout << 19890413 << std::endl;
-	std::cout << 19890503 << std::endl;
-	std::cout << 19890509 << std::endl;
-	std::cout << 19890517 << std::endl;
-	std::cout << 19890523 << std::endl;
-	std::cout << 19890707 << std::endl;
-	std::cout << 19890713 << std::endl;
-	std::cout << 19890817 << std::endl;
-	std::cout << 19890911 << std::endl;
-	std::cout << 19890919 << std::endl;
-	std::cout << 19891007 << std::endl;
-	std::cout << 19891019 << std::endl;
-	std::cout << 19891031 << std::endl;
-	std::cout << 19891103 << std::endl;
-	std::cout << 19891117 << std::endl;
-	std::cout << 19891127 << std::endl;
-	std::cout << 19891213 << std::endl;
-	std::cout << 19891229 << std::endl;
+	int a[13] = { 31,29,31,30,31,30,31,31,30,31,30,31 }, s, y, m, d;
+	for (y = 1988; y <= 1989; y++) {
+		if (y == 1999) a[1] = 28;
+		for (m = 0; m < 12; m++) {
+			for (d = 1; d <= a[m]; d++) {
+				s = y * 10000 + (m + 1) * 100 + d;
+				if (isprime(s)) {
+					std::cout << s << "\n";
+				}
+			}
+		}
+	}
+
 }
