@@ -5,5 +5,4 @@ int main() {
     scanf("%c", &a);
     a = tolower(a);
     printf("%c", a);
-    return 0;
 }

@@ -1,6 +1,5 @@
 #include <stdio.h>
-int score(char c)
-{
+int score(char c) {
 	int sum = 0;
 	switch (c) {
 	case'A':sum = sum + 1; break;
@@ -10,8 +9,7 @@ int score(char c)
 	}
 	return sum;
 }
-int main()
-{
+int main() {
 	char a, b, c, d, e;
 	int total = 0;
 	a = getchar();
@@ -25,5 +23,4 @@ int main()
 	e = getchar();
 	total = score(a) + score(b) + score(c) + score(d) + score(e);
 	printf("%d\n", total);
-	return 0;
 }

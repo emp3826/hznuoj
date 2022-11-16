@@ -5,11 +5,5 @@ int main() {
     int len;
     scanf("%s", &s);
     len = strlen(s);
-    if (len > 10) {
-        printf("BAD");
-    }
-    else {
-        printf("GOOD");
-    }
-    return 0;
+    (len > 10) ? printf("BAD") : printf("GOOD");
 }
