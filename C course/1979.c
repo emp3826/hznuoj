@@ -1,16 +1,12 @@
 #include <stdio.h>
-int process(int x) {
-	if (x == 0) return 0;
-	if (x == 1) return 1;
-	if (x == 2) return 2;
-	if (x == 3) return 4;
-	return process(x - 1) + process(x - 2) + process(x - 3);
-}
 int main() {
-	int t, n;
+	int i, t, n, a[31] = { 1,1,2 };
 	scanf("%d", &t);
-	while (t--) {
+	for (i = 3; i < 31; i++) {
+		a[i] = a[i - 1] + a[i - 2] + a[i - 3];
+	}
+	for (i = 0; i < t; i++) {
 		scanf("%d", &n);
-		printf("%d\n", process(n));
+		printf("%d\n", a[n]);
 	}
 }
