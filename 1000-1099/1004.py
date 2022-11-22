@@ -1,2 +1,1 @@
-for _ in range(int(input())):
-	print(input()[::-1]+'\n')
+for _ in range(int(input())):print(input()[::-1]+'\n')
