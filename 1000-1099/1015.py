@@ -1,6 +1,5 @@
 n = int(input())
 while n:
     for _ in range(n):
-        l = sorted(list(map(int,input().split())))
-        print(' '.join(str(k) for k in l))
+        print(' '.join(str(k) for k in sorted(list(map(int,input().split())))))
     n = int(input())
