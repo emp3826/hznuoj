@@ -1,0 +1,1 @@
+for _ in range(int(input())):print('showshowshow' if (int(input()))%3==1 else 'forever love')
