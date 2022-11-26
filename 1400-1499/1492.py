@@ -1,2 +1,1 @@
-for i in range(int(input())):
-    print(eval(input().replace('/','//')))
+for _ in range(int(input())):print(eval(input().replace('/','//')))
