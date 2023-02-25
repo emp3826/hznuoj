@@ -1,0 +1,1 @@
+print('BAD' if len(input())>10 else 'GOOD')
