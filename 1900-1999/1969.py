@@ -1,3 +1,2 @@
-for _ in range(int(input())):
-    n=int(input())
-    print('29' if n%400==0 or n%4==0 and n%100!=0 else '28')
+import calendar
+for _ in range(int(input())):print('29' if calendar.isleap(int(input())) else '28')
