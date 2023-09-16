@@ -1,3 +1,1 @@
-for _ in range(int(input())):
-	a,b=map(int,input().split())
-	print(a+b)
+for _ in range(int(input())):print(sum(map(int,input().split())))
