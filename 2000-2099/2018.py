@@ -1,0 +1,1 @@
+print("cjc died!" if sum(map(int,input().split()))<sum(map(int,input().split())) else "why am i so diao?")

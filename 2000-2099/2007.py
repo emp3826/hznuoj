@@ -1,5 +1,4 @@
 for _ in range(int(input())):
     n,k,_=map(int,input().split())
-    l=sorted(list(map(int,input().split())))
-    a=sum(l[0:k])-n
-    print(a if a>0 else 0)
+    l=sorted(map(int,input().split()))
+    print(max(0,sum(l[:k])-n))
